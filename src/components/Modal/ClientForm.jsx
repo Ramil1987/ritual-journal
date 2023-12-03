@@ -62,19 +62,19 @@ export const ClientForm = ({ productList, date, total, handleClose, PRICES, Make
 
     var initial = {
         order_date: date,
-        customer_secondname: "",
-        customer_firstname: "",
-        customer_surname: "",
+        customer_secondname: "Заказчик",
+        customer_firstname: "Прекрасной",
+        customer_surname: "Могилы",
         // email: "",
-        number: "",
-        monument_secondname1: "",
-        monument_firstname1: "",
-        monument_surname1: "",
-        birth_date1: "",
-        death_date1: "",
-        comment: "",
-        order_number: "",
-        deadline: ""
+        number: "+79998887766",
+        monument_secondname1: "Первый",
+        monument_firstname1: "Покинувший",
+        monument_surname1: "Мир",
+        birth_date1: "0.0.0000",
+        death_date1: "31.12.3000",
+        comment: "Однажды и нас настигнет эта участь",
+        order_number: "123456",
+        deadline: "12.05.2023"
     }
     if (FIOcount === "2") {
         initial['monument_secondname2'] = ""
